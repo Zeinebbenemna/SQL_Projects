@@ -41,6 +41,3 @@ Analysis of **3 months of orders (Jan-Mar 2023)** at a restaurant with an intern
 
 `LOAD DATA` with on-the-fly conversion · `STR_TO_DATE` · `LEFT JOIN` · views · CTEs · subqueries · `GROUP BY` / `HAVING` · window functions (`SUM() OVER`) · date and time functions
 
-## ▶️ How to run
-
-Open the script in MySQL Workbench, change the two CSV paths in section 0, and run it top to bottom. It creates its own `restaurant_orders` database. If loading fails with a "local infile" error, enable `OPT_LOCAL_INFILE=1` in the connection's Advanced settings.
